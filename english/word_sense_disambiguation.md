@@ -55,8 +55,9 @@ The main evaluation measure is F1-score.
 |Babelfy | 65.5 | 67.0 | 63.5 | 51.6 | 66.4 | 70.3 | [[8]](http://aclweb.org/anthology/Q14-1019) |
 |UKB<sub>ppr_w2w-nf</sub> | 57.5 | 64.2 | 54.8 | 40.0 | 64.5 | 64.5 | [[9]](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00164) [[12]](http://aclweb.org/anthology/W18-2505) |
 |UKB<sub>ppr_w2w</sub> | 67.3 | 68.8 | 66.1 | 53.0 | **68.8** | 70.3 | [[9]](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00164) [[12]](http://aclweb.org/anthology/W18-2505) |
-|WSD-TM | 66.9 | 69.0 | **66.9** | 55.6 | 65.3 | 69.6 | [[10]](https://arxiv.org/pdf/1801.01900.pdf) |
-|KEF | **68.0** | **69.6** | 66.1 | **56.9** | 68.4 | **72.3** | [[16]](https://doi.org/10.1016/j.knosys.2019.105030) [[code]](https://github.com/lwmlyy/Knowledge-based-WSD)|
+|WSD-TM | 66.9 | 69.0 | 66.9 | 55.6 | 65.3 | 69.6 | [[10]](https://arxiv.org/pdf/1801.01900.pdf) |
+|KEF | **68.0** | **69.6** | 66.1 | 56.9 | 68.4 | **72.3** | [[16]](https://doi.org/10.1016/j.knosys.2019.105030) [[code]](https://github.com/lwmlyy/Knowledge-based-WSD)|
+|WSD-games | 67.7 | 68.7 | **68.3** | **58.9** | 66.4 | 70.7 | [[21]](https://www.aclweb.org/anthology/D19-1009.pdf) [[code]](https://github.com/roccotrip/wsd_games_emb)|
 
 Note: 'All' is the concatenation of all datasets, as described in [10] and [12]. The scores of [6,7] and [9] are not taken from the original papers but from the results of the implementations of [11] and [12], respectively.
 
@@ -99,6 +100,8 @@ Note: 'All' is the concatenation of all datasets, as described in [10] and [12].
 [19] [Sparsity Makes Sense: Word Sense Disambiguation Using Sparse Contextualized Word Representations](https://www.aclweb.org/anthology/2020.emnlp-main.683/)
 
 [20] [With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word Sense Disambiguation](https://www.aclweb.org/anthology/2020.emnlp-main.285/)
+
+[21] [ Game Theory Meets Embeddings: a Unified Framework for Word Sense Disambiguation](https://www.aclweb.org/anthology/D19-1009.pdf)
 ## WSD Lexical Sample task:
 
 Above task is called All-words WSD because the systems attempt to disambiguate all of the words in a document, while there is another task which is called 
